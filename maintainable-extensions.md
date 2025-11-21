@@ -7,8 +7,7 @@ it's extremely easy to come up with code that does something useful.
 
 The VS Code API is kinda flat, it's not exposed as a multi-layered architecture
 that we need to master before being able to code (I'm looking at you, IntelliJ).
-The JavaScript environment allows developer to iterate fast, to access millions
-of useful libraries, and so on.
+And undoubtedly, the JavaScript environment allows developers to iterate fast.
 
 This is all nice and cool at the very beginning, in the "Hello World" situation
 where the extension's contribution are relatively low in quantity and mostly do
