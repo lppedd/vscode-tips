@@ -10,7 +10,7 @@ that we need to master before being able to code (I'm looking at you, IntelliJ).
 And undoubtedly, the JavaScript environment allows developers to iterate fast.
 
 This is all nice and cool at the very beginning, in the "Hello World" situation
-where the extension's contribution are relatively low in quantity and mostly do
+where the extension's contributions are relatively low in quantity and mostly do
 not have to cooperate. However, as soon as we start registering multiple commands,
 multiple tree providers or custom editors, the situation changes rapidly.
 We begin to see new top-level functions spawning everywhere, increasingly deep
@@ -19,9 +19,9 @@ global mutable state (because well, JS is single-threaded so who cares, right?),
 and much more.
 
 A couple of months after the first successful activation and boom! The entry point
-file is now 3000 LOC long with no sign of slowing down in size, because everything's.
+file is now 3000 LOC long with no sign of slowing down in size, because everything's
 so tied up together that we cannot even begin to extract pieces of code without
-breaking anything. And I'm not even mentioning testing... Testable components?
+breaking something. And I'm not even mentioning testing... Testable components?
 I wish!
 
 But let's stop ranting and let's try to reason about whether architectural
